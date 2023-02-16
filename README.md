@@ -1,2 +1,2 @@
 # bifrost-compounds
-my bifrost compound repository
+My bifrost compound repository
