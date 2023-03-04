@@ -190,7 +190,7 @@
     "types": [],
     "compounds": [
         {
-            "name": "AB::Deformers:::normals_deformer",
+            "name": "AB::Deformers::normals_deformer",
             "metadata": [
                 {
                     "metaName": "io_nodes",
