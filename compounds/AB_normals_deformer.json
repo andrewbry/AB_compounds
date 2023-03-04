@@ -1,0 +1,733 @@
+{
+    "header": {
+        "metadata": [
+            {
+                "metaName": "adskFileFormatVersion",
+                "metaValue": "100L"
+            }
+        ]
+    },
+    "dependencies": [
+        {
+            "uri": "file:///Math_types.json"
+        },
+        {
+            "uri": "file:///Math_float.json"
+        },
+        {
+            "uri": "file:///Math_double.json"
+        },
+        {
+            "uri": "file:///Math_long.json"
+        },
+        {
+            "uri": "file:///Math_char.json"
+        },
+        {
+            "uri": "file:///Math_int.json"
+        },
+        {
+            "uri": "file:///Math_short.json"
+        },
+        {
+            "uri": "file:///Math_uchar.json"
+        },
+        {
+            "uri": "file:///Math_uint.json"
+        },
+        {
+            "uri": "file:///Math_ulong.json"
+        },
+        {
+            "uri": "file:///Math_ushort.json"
+        },
+        {
+            "uri": "file:///riv_types.json"
+        },
+        {
+            "uri": "file:///bifrost_object_i.json"
+        },
+        {
+            "uri": "file:///point_types.json"
+        },
+        {
+            "uri": "file:///FCurve.json"
+        },
+        {
+            "uri": "file:///riv_ops.json"
+        },
+        {
+            "uri": "file:///CoreArrayOps.json"
+        },
+        {
+            "uri": "file:///bifrost_geometry_query_types.json"
+        },
+        {
+            "uri": "file:///geometry_types.json"
+        },
+        {
+            "uri": "file:///get_property_any.json"
+        },
+        {
+            "uri": "file:///get_property.json"
+        },
+        {
+            "uri": "file:///get_geo_property.json"
+        },
+        {
+            "uri": "file:///get_point_normal.json"
+        },
+        {
+            "uri": "file:///get_point_position.json"
+        },
+        {
+            "uri": "file:///Math_conversion.json"
+        },
+        {
+            "uri": "file:///has_property.json"
+        },
+        {
+            "uri": "file:///create_volume_geo_prop.json"
+        },
+        {
+            "uri": "file:///is_a.json"
+        },
+        {
+            "uri": "file:///create_object_from_schema.json"
+        },
+        {
+            "uri": "file:///is_a_mesh.json"
+        },
+        {
+            "uri": "file:///is_a_strands.json"
+        },
+        {
+            "uri": "file:///is_a_points.json"
+        },
+        {
+            "uri": "file:///is_a_volume.json"
+        },
+        {
+            "uri": "file:///get_geo_schema_type.json"
+        },
+        {
+            "uri": "file:///switch_is_a.json"
+        },
+        {
+            "uri": "file:///get_target_component.json"
+        },
+        {
+            "uri": "file:///create_data_geo_prop.json"
+        },
+        {
+            "uri": "file:///set_property_any.json"
+        },
+        {
+            "uri": "file:///set_property.json"
+        },
+        {
+            "uri": "file:///get_geo_component_count.json"
+        },
+        {
+            "uri": "file:///set_geo_property.array.json"
+        },
+        {
+            "uri": "file:///set_geo_property.scalar.json"
+        },
+        {
+            "uri": "file:///set_point_position.json"
+        },
+        {
+            "uri": "file:///Math_bool.json"
+        },
+        {
+            "uri": "file:///increment_decrement.json"
+        },
+        {
+            "uri": "file:///Math_constants.json"
+        },
+        {
+            "uri": "file:///noise_nodedefs.json"
+        },
+        {
+            "uri": "file:///fractal_turbulence.json"
+        },
+        {
+            "uri": "file:///simulation_types.json"
+        },
+        {
+            "uri": "file:///simulation_nodedefs.json"
+        },
+        {
+            "uri": "file:///Math_array.json"
+        },
+        {
+            "uri": "file:///Core_Array_slice_array.json"
+        },
+        {
+            "uri": "file:///get_sub_object.json"
+        },
+        {
+            "uri": "file:///update_mesh_adjacency.json"
+        },
+        {
+            "uri": "file:///access_offset_array.json"
+        },
+        {
+            "uri": "file:///get_point_count.json"
+        },
+        {
+            "uri": "file:///erase_property.json"
+        },
+        {
+            "uri": "file:///get_mesh_structure.json"
+        },
+        {
+            "uri": "file:///update_mesh_normals.json"
+        }
+    ],
+    "namespaces": [],
+    "types": [],
+    "compounds": [
+        {
+            "name": "AB::Deformers:::normals_deformer",
+            "metadata": [
+                {
+                    "metaName": "io_nodes",
+                    "metadata": [
+                        {
+                            "metaName": "io_inodes",
+                            "metadata": [
+                                {
+                                    "metaName": "input",
+                                    "metadata": [
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "input_mesh"
+                                                },
+                                                {
+                                                    "metaName": "use_noise"
+                                                },
+                                                {
+                                                    "metaName": "intensity"
+                                                },
+                                                {
+                                                    "metaName": "noise_intensity"
+                                                },
+                                                {
+                                                    "metaName": "noise_offset"
+                                                },
+                                                {
+                                                    "metaName": "num_frequencies"
+                                                },
+                                                {
+                                                    "metaName": "frequency"
+                                                },
+                                                {
+                                                    "metaName": "ratio"
+                                                },
+                                                {
+                                                    "metaName": "frequency_ratio"
+                                                },
+                                                {
+                                                    "metaName": "time_speed"
+                                                },
+                                                {
+                                                    "metaName": "seed"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "-2480.87 -730.046"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "metaName": "io_onodes",
+                            "metadata": [
+                                {
+                                    "metaName": "output",
+                                    "metadata": [
+                                        {
+                                            "metaName": "io_ports",
+                                            "metadata": [
+                                                {
+                                                    "metaName": "out_geometry"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "metaName": "DisplayMode",
+                                            "metaType": "string",
+                                            "metaValue": "2"
+                                        },
+                                        {
+                                            "metaName": "LayoutPos",
+                                            "metaType": "string",
+                                            "metaValue": "1077.65 -700.585"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Math,add"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Geometry::Mesh,update_mesh_normals"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Math,multiply"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Logic,if"
+                },
+                {
+                    "metaName": "_recentNode_",
+                    "metaType": "string",
+                    "metaValue": "BifrostGraph,Core::Time,time"
+                },
+                {
+                    "metaName": "ViewportRect",
+                    "metaType": "string",
+                    "metaValue": "-390.869 -762.291 2139.41 589.813"
+                },
+                {
+                    "metaName": "DisplayMode",
+                    "metaType": "string",
+                    "metaValue": "2"
+                },
+                {
+                    "metaName": "LayoutPos",
+                    "metaType": "string",
+                    "metaValue": "-588.159 -192.798"
+                }
+            ],
+            "ports": [
+                {
+                    "portName": "input_mesh",
+                    "portDirection": "input",
+                    "portType": "Amino::Object",
+                    "portDefault": {}
+                },
+                {
+                    "portName": "out_geometry",
+                    "portDirection": "output",
+                    "portType": "Amino::Object"
+                },
+                {
+                    "portName": "use_noise",
+                    "portDirection": "input",
+                    "portType": "bool",
+                    "portDefault": "true"
+                },
+                {
+                    "portName": "intensity",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "1f"
+                },
+                {
+                    "portName": "noise_intensity",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "0.100000001f"
+                },
+                {
+                    "portName": "noise_offset",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "0.0500000007f"
+                },
+                {
+                    "portName": "num_frequencies",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "8f"
+                },
+                {
+                    "portName": "frequency",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "0.5f"
+                },
+                {
+                    "portName": "ratio",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "0.5f"
+                },
+                {
+                    "portName": "frequency_ratio",
+                    "portDirection": "input",
+                    "portType": "float",
+                    "portDefault": "0.5f"
+                },
+                {
+                    "portName": "time_speed",
+                    "portDirection": "input"
+                },
+                {
+                    "portName": "seed",
+                    "portDirection": "input",
+                    "portType": "long",
+                    "portDefault": "0"
+                }
+            ],
+            "compoundNodes": [
+                {
+                    "nodeName": "add",
+                    "nodeType": "Core::Math::add",
+                    "multiInPortNames": [
+                        "point_position",
+                        "point_normal"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "244.908 -581.664"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "get_point_normal",
+                    "nodeType": "Geometry::Properties::get_point_normal",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-1351.43 -152.796"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "get_point_position",
+                    "nodeType": "Geometry::Properties::get_point_position",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-1731.31 -841.575"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "multiply",
+                    "nodeType": "Core::Math::multiply",
+                    "multiInPortNames": [
+                        "point_normal",
+                        "intensity"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-197.921 -484.29"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "set_point_position",
+                    "nodeType": "Geometry::Properties::set_point_position",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "506.13 -700.691"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "fractal_turbulence",
+                    "nodeType": "Core::Randomization::fractal_turbulence",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-1467.2 79.2099"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "time",
+                    "nodeType": "Core::Time::time",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-2665.11 174.319"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "multiply1",
+                    "nodeType": "Core::Math::multiply",
+                    "multiInPortNames": [
+                        "frame",
+                        "output1"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-2099.11 202.319"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "if",
+                    "nodeType": "Core::Logic::if",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-467.182 -168.829"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "multiply2",
+                    "nodeType": "Core::Math::multiply",
+                    "multiInPortNames": [
+                        "noise",
+                        "point_normal"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-817.501 59.5545"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "update_mesh_normals",
+                    "nodeType": "Geometry::Mesh::update_mesh_normals",
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "805.143 -713.166"
+                        }
+                    ]
+                },
+                {
+                    "nodeName": "add1",
+                    "nodeType": "Core::Math::add",
+                    "multiInPortNames": [
+                        "noise",
+                        "output1"
+                    ],
+                    "metadata": [
+                        {
+                            "metaName": "DisplayMode",
+                            "metaType": "string",
+                            "metaValue": "2"
+                        },
+                        {
+                            "metaName": "LayoutPos",
+                            "metaType": "string",
+                            "metaValue": "-1154.06 66.4696"
+                        }
+                    ]
+                }
+            ],
+            "connections": [
+                {
+                    "source": "get_point_position.point_position",
+                    "target": "add.first.point_position"
+                },
+                {
+                    "source": "add.output",
+                    "target": "set_point_position.positions"
+                },
+                {
+                    "source": ".input_mesh",
+                    "target": "get_point_normal.geometry"
+                },
+                {
+                    "source": ".input_mesh",
+                    "target": "get_point_position.geometry"
+                },
+                {
+                    "source": ".input_mesh",
+                    "target": "set_point_position.geometry"
+                },
+                {
+                    "source": "get_point_position.point_position",
+                    "target": "fractal_turbulence.position"
+                },
+                {
+                    "source": ".noise_intensity",
+                    "target": "fractal_turbulence.magnitude"
+                },
+                {
+                    "source": ".num_frequencies",
+                    "target": "fractal_turbulence.num_frequencies"
+                },
+                {
+                    "source": ".frequency",
+                    "target": "fractal_turbulence.frequency"
+                },
+                {
+                    "source": ".ratio",
+                    "target": "fractal_turbulence.ratio"
+                },
+                {
+                    "source": ".frequency_ratio",
+                    "target": "fractal_turbulence.frequency_ratio"
+                },
+                {
+                    "source": "time.frame",
+                    "target": "multiply1.first.frame"
+                },
+                {
+                    "source": ".time_speed",
+                    "target": "multiply1.first.output1"
+                },
+                {
+                    "source": "multiply1.output",
+                    "target": "fractal_turbulence.time"
+                },
+                {
+                    "source": ".use_noise",
+                    "target": "if.condition"
+                },
+                {
+                    "source": "get_point_normal.point_normal",
+                    "target": "if.false_case"
+                },
+                {
+                    "source": "if.output",
+                    "target": "multiply.first.point_normal"
+                },
+                {
+                    "source": "multiply.output",
+                    "target": "add.first.point_normal"
+                },
+                {
+                    "source": ".intensity",
+                    "target": "multiply.first.intensity"
+                },
+                {
+                    "source": ".seed",
+                    "target": "fractal_turbulence.seed"
+                },
+                {
+                    "source": "get_point_normal.point_normal",
+                    "target": "multiply2.first.point_normal"
+                },
+                {
+                    "source": "multiply2.output",
+                    "target": "if.true_case"
+                },
+                {
+                    "source": "set_point_position.out_geometry",
+                    "target": "update_mesh_normals.mesh"
+                },
+                {
+                    "source": "update_mesh_normals.out_mesh",
+                    "target": ".out_geometry"
+                },
+                {
+                    "source": "fractal_turbulence.noise",
+                    "target": "add1.first.noise"
+                },
+                {
+                    "source": "add1.output",
+                    "target": "multiply2.first.noise"
+                },
+                {
+                    "source": ".noise_offset",
+                    "target": "add1.first.output1"
+                }
+            ],
+            "values": [],
+            "reservedNodeNames": [
+                {
+                    "name": "input"
+                },
+                {
+                    "name": "output"
+                }
+            ]
+        }
+    ]
+}
